@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model bundle (large binary; download it - see README)
+hand_landmarker.task
+
+# Runtime artefacts
+screenshots/*
+!screenshots/.gitkeep
+*.log
+app.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
